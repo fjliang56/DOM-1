@@ -1,6 +1,6 @@
 window.dom = {
   find(selector, scope) {
-        return (scope || document).querySelectorALL(selector)
+        return (scope || document).querySelectorAll(selector)
     },
   style(node, name, value) {
         if (arguments.length === 3) {
